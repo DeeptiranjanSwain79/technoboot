@@ -1,0 +1,73 @@
+.aboutContainer {
+    width: 100%;
+    margin-top: 3vmax;
+    height: 30vmax;
+    overflow: hidden;
+}
+
+.aboutContainer > img {
+    width: 100%;
+    height: 40vmax;
+    opacity: 0.95;
+}
+
+.aboutContainer > div {
+    display: flex;
+    width: 60%;
+    position: relative;
+    top: -45vmax;
+    width: 70vmax;
+    margin-left: 10vmax;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutContainer > div > img {
+    margin-top: 9vmax;
+    right: 2vmax;
+    width: 30vmax;
+    height: 20vmax;
+
+}
+.aboutText:not(.ol) {
+    width: 40%;
+    text-align: center;
+}
+
+.aboutText > p {
+    color: white;
+    width: 30vmax;
+    font: 200 2.2vmax "Poppins";
+    text-align: center;
+}
+
+.aboutText > span {
+    color: #ffff;
+    text-align: center;
+    width: 30vmax;
+}
+
+.ol {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-around;
+    position: relative;
+}
+
+.ol > p {
+    display: flex;
+}
+
+.ol > p > span {
+    background-color: orange;
+    margin-right: 1.5vmax;
+    padding: 0.5vmax 1vmax;
+    border-radius: 100%;
+    color: #ffff;
+}
+
+.ol > p > li {
+    color: #ffff;
+}

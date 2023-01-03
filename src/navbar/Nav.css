@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.navContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgba(2, 0, 49, 0.8);;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navContainer > img {
+    width: 7vmax;
+    margin-left: 2vmax;
+    margin-top: 0.5vmax;
+    margin-bottom: 0.5vmax;
+}
+
+.navContainer > div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vw;
+    font: 500 1.3vmax "Poppins";
+    color: #cefbff;
+}

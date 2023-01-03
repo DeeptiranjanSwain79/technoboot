@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+.homeContainer {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 4.5vmax;
+}
+
+.homeContainer > img {
+    width: 100vw;
+}
+
+.homeContainer > div {
+    position: absolute;
+    top: 15vmax;
+    left: 15vmax;
+}
+
+.homeContainer > div > p {
+    display: flex;
+    flex-direction: column;
+    font: 500 4vmax "Roboto";
+}
+
+.homeContainer > div > button {
+    background-color: rgb(230, 122, 28);
+    border: none;
+    padding: 1vmax 2.5vmax;
+    color: #ffff;
+    font: 200 1vmax "Roboto";
+    border-radius: 2vmax;
+    margin-top: -5vmax;
+}
